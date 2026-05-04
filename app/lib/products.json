@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 25,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Premium polarized lenses with lightweight frames for maximum comfort.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=500",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Ocean Breeze Sunscreen SPF 50",
+    "brand": "AquaPure",
+    "price": 18,
+    "rating": 4.9,
+    "stock": 45,
+    "description": "Non-greasy, water-resistant formula perfect for long beach days.",
+    "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&q=80&w=500",
+    "category": "Skincare"
+  },
+
+  {
+    "id": 3,
+    "name": "Men's Linen Short Sleeve",
+    "brand": "RayBlock",
+    "price": 45,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Lightweight 100% linen shirt for ultimate summer breathability.",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=500",
+    "category": "Apparel"
+  },
+  {
+    "id": 4,
+    "name": "Inflatable Pool Lounge",
+    "brand": "BeachBum",
+    "price": 55,
+    "rating": 4.3,
+    "stock": 8,
+    "description": "Extra-large luxury pool float with built-in cup holders.",
+    "image": "https://images.unsplash.com/photo-1562185000-12e4f02e1c48?auto=format&fit=crop&q=80&w=500",
+    "category": "Outdoor"
+  },
+  {
+    "id": 5,
+    "name": "Waterproof Phone Pouch",
+    "brand": "CoolWave",
+    "price": 15,
+    "rating": 4.8,
+    "stock": 100,
+    "description": "Universal size with clear touch-responsive windows for underwater photos.",
+    "image": "https://images.unsplash.com/photo-1613533261763-71822c710f6e?auto=format&fit=crop&q=80&w=500",
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "Coconut Lip Balm SPF 15",
+    "brand": "AquaPure",
+    "price": 6,
+    "rating": 4.9,
+    "stock": 150,
+    "description": "Protects and moisturizes with natural coconut oil extracts.",
+    "image": "https://images.unsplash.com/photo-1617343224055-66236b309995?auto=format&fit=crop&q=80&w=500",
+    "category": "Skincare"
+  },
+  {
+    "id": 7,
+    "name": "Canvas Beach Tote Bag",
+    "brand": "SunGlow",
+    "price": 32,
+    "rating": 4.7,
+    "stock": 14,
+    "description": "Large capacity bag with internal waterproof pockets for essentials.",
+    "image": "https://images.unsplash.com/photo-1533630666536-7493fa1ad974?auto=format&fit=crop&q=80&w=500",
+    "category": "Accessories"
+  }
+]
