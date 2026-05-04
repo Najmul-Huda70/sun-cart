@@ -1,37 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ☀️ Sun-card - Summer Essentials E-commerce
 
-## Getting Started
+Sun-card is a modern, high-performance e-commerce web application focused on summer-themed products and essentials. It provides a seamless shopping experience with secure authentication, dynamic product listing, and a responsive UI.
 
-First, run the development server:
+## 🚀 Live URL
+[https://sun-card.vercel.app/](https://sun-cart-ltd.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Project Purpose
+The goal of Sun-card is to demonstrate a full-stack web development workflow using the latest technologies. It focuses on solving real-world challenges like secure OAuth integration, database management for products, and high-quality user interface design for better conversion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
+- **Secure Authentication:** Integrated with **Better Auth** using Google OAuth for a seamless login experience.
+- **Dynamic Product Grid:** A fully responsive product page featuring 6+ summer items with real-time stock alerts and hover effects.
+- **Brand Showcasing:** An interactive "Top Brands" section featuring infinite horizontal auto-scroll animations for a modern look.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop using Tailwind CSS.
+- **Server-Side Rendering:** Built with Next.js App Router for optimized performance and SEO.
+- **Database Integration:** Scalable data storage using MongoDB Atlas with secure connection handling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies & NPM Packages Used
+This project leverages a modern stack to ensure speed and security:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sun-cart
+- **Framework:** [Next.js](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Authentication:** 
+  - `better-auth`: For simplified and secure auth flows.
+  - `google-auth-library`: To handle Google OAuth tokens.
+- **Database:** 
+  - [MongoDB](https://www.mongodb.com/): For product and user data storage.
+  - `mongoose`: For elegant MongoDB object modeling.
+- **Animations:** 
+  - `framer-motion`: For smooth scroll animations and marquee effects.
+  - `lottie-react`: For lightweight, high-quality vector animations.
+- **Icons:** `lucide-react` or `react-icons`
