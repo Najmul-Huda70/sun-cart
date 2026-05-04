@@ -41,7 +41,7 @@
     "rating": 4.3,
     "stock": 8,
     "description": "Extra-large luxury pool float with built-in cup holders.",
-    "image": "https://images.unsplash.com/photo-1562185000-12e4f02e1c48?auto=format&fit=crop&q=80&w=500",
+    "image": "https://images.unsplash.com/photo-1542668595-fa9394e5b686?auto=format&fit=crop&q=80&w=500",
     "category": "Outdoor"
   },
   {
@@ -52,7 +52,7 @@
     "rating": 4.8,
     "stock": 100,
     "description": "Universal size with clear touch-responsive windows for underwater photos.",
-    "image": "https://images.unsplash.com/photo-1613533261763-71822c710f6e?auto=format&fit=crop&q=80&w=500",
+    "image": "https://images.unsplash.com/photo-1598331668826-20cecc596b86?auto=format&fit=crop&q=80&w=500",
     "category": "Electronics"
   },
   {
@@ -63,18 +63,7 @@
     "rating": 4.9,
     "stock": 150,
     "description": "Protects and moisturizes with natural coconut oil extracts.",
-    "image": "https://images.unsplash.com/photo-1617343224055-66236b309995?auto=format&fit=crop&q=80&w=500",
+    "image": "https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?q=80&w=500&auto=format&fit=crop",
     "category": "Skincare"
-  },
-  {
-    "id": 7,
-    "name": "Canvas Beach Tote Bag",
-    "brand": "SunGlow",
-    "price": 32,
-    "rating": 4.7,
-    "stock": 14,
-    "description": "Large capacity bag with internal waterproof pockets for essentials.",
-    "image": "https://images.unsplash.com/photo-1533630666536-7493fa1ad974?auto=format&fit=crop&q=80&w=500",
-    "category": "Accessories"
   }
 ]
