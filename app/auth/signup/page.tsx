@@ -48,10 +48,13 @@ export default function SignUpPage() {
     e.preventDefault();
     setErrorMsg("");
     const formData = new FormData(e.currentTarget);
-    const { name, email, password } = Object.fromEntries(formData.entries());
+    const { name, email, image, password } = Object.fromEntries(
+      formData.entries(),
+    );
     const { error } = await authClient.signUp.email({
       name: name as string,
       email: email as string,
+      image: image as string,
       password: password as string,
     });
 
@@ -64,7 +67,7 @@ export default function SignUpPage() {
 
   return (
     <div className="flex w-full min-h-screen justify-center items-center bg-gray-50">
-      <div className="bg-white p-8 rounded-3xl shadow-xl w-100 border border-gray-100">
+      <div className="bg-gray-50 p-8 rounded-3xl shadow-xl w-100 border border-gray-100">
         <h1 className="text-2xl font-black text-[#1a1c22] mb-6 text-center">
           Create Account
         </h1>
@@ -108,7 +111,16 @@ export default function SignUpPage() {
             </InputGroup>
             <FieldError />
           </TextField>
-
+          <TextField className="w-full" name="name">
+            <Label>Profile Image URL</Label>
+            <InputGroup>
+              <InputGroup.Input
+                type="url"
+                placeholder="https://example.com/photo.jpg"
+                className="w-full"
+              />
+            </InputGroup>
+          </TextField>
           <TextField
             isRequired
             minLength={8}

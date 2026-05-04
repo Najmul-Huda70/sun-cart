@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     // Main Wrapper
     <footer className="bg-[#1a1c22] text-gray-300">
-      <div className="footer p-10 max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
+      <div className="footer p-10 max-w-7xl mx-auto flex flex-col  items-center md:flex-row md:justify-between">
         <aside>
           <div className="flex items-center gap-1 font-black text-2xl mb-4">
             <span className="text-orange-500">SUN</span>
@@ -81,7 +81,7 @@ export default function Footer() {
 
         <nav>
           <h6 className="footer-title text-orange-500 opacity-100">Social</h6>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-4 mb-5">
             <Link href="#" className="hover:text-blue-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,6 +115,9 @@ export default function Footer() {
               </svg>
             </Link>
           </div>
+          <Link href={"#"} className="hover:underline">
+            Privacy policy
+          </Link>
         </nav>
       </div>
 

@@ -1,7 +1,7 @@
 import ProductCard from "@/Component/ProductCard";
 import products from "@/app/lib/products.json";
 import { SummerCareTips } from "@/Component/SummerCard";
-import { TopBrands } from "@/Component/TopBrands";
+import TopBrands from "@/Component/TopBrands";
 export default function Home() {
   return (
     <>
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section className="my-16 mx-10 bg-gray-50">
+      <section className="my-16 mx-10 bg-gray-50 p-5">
         <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
           Popular Products
         </h2>
@@ -39,6 +39,10 @@ export default function Home() {
           ))}
         </div>
         <SummerCareTips />
+        <div className="text-3xl text-orange-500 font-bold text-center w-full">
+          Top Brands
+        </div>
+        <br />
         <TopBrands />
       </section>
     </>

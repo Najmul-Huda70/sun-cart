@@ -64,7 +64,7 @@ export default function SignInPage() {
   };
   const [isVisible, setIsVisible] = useState(false);
   return (
-    <div className="flex w-full h-dvh justify-center items-center bg-gray-50">
+    <div className="flex w-full min-h-screen justify-center items-center bg-gray-50">
       <div className="bg-white p-8 rounded-3xl shadow-xl w-100 border border-gray-100">
         <h1 className="text-2xl font-black text-[#1a1c22] mb-6 text-center">
           Welcome Back
